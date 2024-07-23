@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Layout({ children }) {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-gray-950">
     <Header />
     <div className="flex">
       <MenuNavegacion />

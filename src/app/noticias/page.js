@@ -9,7 +9,9 @@ const page = () => {
         <CardNoticia />
         <CardNoticia />
         <CardNoticia />
-        
+        <code>
+          <span>src/app/noticias/page.js</span>
+        </code>
     </div>
   )
 }
