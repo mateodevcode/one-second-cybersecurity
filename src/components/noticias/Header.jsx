@@ -36,7 +36,7 @@ const Header = () => {
           </ul>
           <Search />
           <SwitchDark />
-          <FiMenu className="text-2xl cursor-pointer mx-2" />
+          <FiMenu className="text-2xl cursor-pointer" />
         </div>
       </nav>
     </header>

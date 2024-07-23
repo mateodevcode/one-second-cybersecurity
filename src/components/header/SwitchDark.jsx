@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Switch } from "@nextui-org/react";
+
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
 export default function SwitchDark() {
@@ -18,14 +18,11 @@ export default function SwitchDark() {
   };
 
   return (
-    <Switch
-      defaultSelected
-      size="sm"
-      color="primary"
-      onChange={toggleDark}
-      className="cursor-pointer flex flex-row justify-center items-center"
+    <switch
+      onClick={toggleDark}
+      className="cursor-pointer flex flex-col justify-center items-center mx-2"
     >
       {dark === "dark" ? <BsSunFill /> : <BsMoonFill />}
-    </Switch>
+    </switch>
   );
 }
