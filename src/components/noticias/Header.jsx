@@ -7,6 +7,7 @@ import SwitchDark from "@/components/header/SwitchDark";
 import { FiMenu } from "react-icons/fi";
 import { enlaces } from "@/data/enalces.header";
 import Search from "./Search";
+import { Tooltip } from "@chakra-ui/react";
 
 const Header = () => {
   return (
@@ -35,8 +36,11 @@ const Header = () => {
             <EnlaceNavbar nombre={"Log in"} Url={"/login"} />
           </ul>
           <Search />
+
           <SwitchDark />
-          <FiMenu className="text-2xl cursor-pointer" />
+          <Tooltip label="Menu" fontSize="md" color={"white"} bg={"rebeccapurple"} px={5}>
+            <FiMenu className="text-2xl cursor-pointer" />
+          </Tooltip>
         </div>
       </nav>
     </header>
