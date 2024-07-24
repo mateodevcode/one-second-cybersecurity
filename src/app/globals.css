@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* .fondo_1 {
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 9, 139, 1) 40%);
 } */
+
+/* Logo */
+
+
+
 
 /* Panel de login */
 
@@ -191,3 +197,9 @@ input[type="submit"]:active {
 		height: calc(20vw - 2px);
 	}
 }
+
+
+/*  blog */
+
+
+/* Logo */

@@ -2,7 +2,7 @@ import Header from "@/components/noticias/Header";
 import MenuNavegacion from "@/components/noticias/MenuNavegacion";
 
 export const metadata = {
-  title: "Noticias",
+  title: "Noticias - One Second CyberSecurity",
   description: "Noticias de ciberseguridad y desarrollo de software",
 };
 

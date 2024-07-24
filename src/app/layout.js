@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "One Second",
+  title: "One Second CyberSecurity",
   description: "One Second CyberSecurity es una empresa de ciberseguridad que ofrece servicios de pentesting, auditorías de seguridad, análisis de vulnerabilidades, entre otros.",
   keywords: "One Second, ciberseguridad, pentesting, auditorías de seguridad, análisis de vulnerabilidades",
 };
