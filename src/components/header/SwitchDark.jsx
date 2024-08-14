@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
 export default function SwitchDark() {
-  const [dark, setDark] = useState("dark");
+  const [dark, setDark] = useState("");
   const toggleDark = () => {
     if (dark === "dark") {
       setDark("light");

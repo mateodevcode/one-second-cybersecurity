@@ -1,4 +1,4 @@
-import Header from "@/components/noticias/Header";
+import Header from "@/components/header/Header";
 import MenuNavegacion from "@/components/noticias/MenuNavegacion";
 
 export const metadata = {
@@ -6,14 +6,18 @@ export const metadata = {
   description: "Noticias de ciberseguridad y desarrollo de software",
 };
 
+
 export default function Layout({ children }) {
+  
   return (
-    <div className="dark:bg-gray-950">
-    <Header />
-    <div className="flex">
+    <div className="flex flex-col justify-between items-start bg-white dark:bg-black text-black dark:text-white">
+      <Header />
+      <div className="flex flex-row justify-between items-start">
       <MenuNavegacion />
       {children}
-    </div>
+      <MenuNavegacion />
+      </div>
     </div>
   );
 }
+

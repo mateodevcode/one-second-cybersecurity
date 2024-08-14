@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function MenuNavegacion() {
   return (
-    <div className="w-[420px] h-screen dark:bg-gray-950 dark:text-white sm:hidden md:flex lg:flex mt-10">
+    <div className="w-[390px] h-screen sm:hidden md:flex lg:flex mt-10">
       <div>
         <div className="font-semibold px-5 w-full pt-2 text-xl">💻 Bienvenidos!</div>
         <Link href="/">

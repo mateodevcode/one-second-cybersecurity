@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 const Autor = () => {
   return (
-    <div className="flex flex-row justify-center items-center mt-10 dark:text-white">
+    <Link href={"/"} className="flex flex-row justify-center items-center mt-10 dark:text-white">
       <img
         src="https://i.postimg.cc/L4ZzjFMH/foto-perfil.jpg"
         alt="JavaScript"
@@ -16,7 +17,7 @@ const Autor = () => {
         </span>
         <span className="mx-4 text-sm">24 de Julio de 2024</span>
       </p>
-    </div>
+    </Link>
   );
 };
 

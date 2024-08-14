@@ -7,7 +7,7 @@ export const enlaces = [
   {
     nombre: "Ciberseguridad",
     Url: "/ciberseguridad",
-    especial: "font-semibold text-black dark:text-white",
+    especial: "font-semibold",
   },
   {
     nombre: "Desarrollo de Software",
@@ -18,5 +18,10 @@ export const enlaces = [
     nombre: "Noticias",
     Url: "/noticias",
     especial: null,
+  },
+  {
+    nombre: "Blog",
+    Url: "/blog",
+    especial: "font-semibold",
   },
 ];

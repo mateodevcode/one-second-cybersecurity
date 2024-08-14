@@ -4,9 +4,9 @@ import React from "react";
 const Logo = () => {
   return (
     <Link href="/">
-      <div className="flex flex-col justify-center items-center uppercase leading-3">
-        <p className="logo_one font-semibold text-3xl font-serif">one</p>
-        <p className="logo_second font-semibold font-serif">second</p>
+      <div className="flex flex-col justify-center items-start uppercase leading-3 text-white">
+        <p className="font-semibold lg:text-xl md:text-xl sm:text-base font-serif">one</p>
+        <p className="font-semibold font-serif lg:text-base md:text-base sm:text-sm">second</p>
       </div>
     </Link>
   );
