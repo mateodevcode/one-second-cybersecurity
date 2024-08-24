@@ -3,7 +3,9 @@
 ## Deploy on Vercel
 Para visualizar la pagina desplegada en GitHub Pages puedes dar click en el siguiente enlace. [Ir a la web](https://one-second-cybersecurity.vercel.app)
 
-**🎬🍿 ¡Descubre Wonly! Tu Destino Gratis para Series y Películas 🍿🎬** ¡Hola a todos! 😄 Estoy súper emocionado de presentarles Wonly, una web diseñada para que disfrutes de tus series y películas favoritas totalmente gratis. 🎉 He creado esta plataforma utilizando Next.js, Tailwind CSS y Chakra UI, combinando tecnología moderna con una experiencia de usuario increíble. 🚀
+**💻🔒 Bienvenidos a One Second CyberSecurity: Innovación en Desarrollo de Software y Ciberseguridad 🔒💻** ¡Hola! 😄 Nos complace presentarles **One Second CyberSecurity**, una empresa dedicada al desarrollo de software y ciberseguridad. Estamos aquí para ayudarte a **digitalizar tu PYME** con soluciones tecnológicas personalizadas a precios accesibles. Además, fomentamos una comunidad activa donde puedes aprender y crecer en el mundo del desarrollo y la ciberseguridad. 🚀
+
+Nuestra plataforma está construida con las últimas tecnologías como **Next.js**, **Tailwind CSS**, **Chakra UI**, y **MongoDB**, asegurando que nuestra web sea rápida, segura y fácil de usar para todos. 🌐
 
 [![image](https://github.com/user-attachments/assets/dc2231e7-3ac4-4ca6-b167-d41ee1d7a165)](https://one-second-cybersecurity.vercel.app)
 
